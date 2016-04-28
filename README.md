@@ -28,12 +28,11 @@ The tests shown in `test.py` are ordered from easiest to hardest for the most pa
 
 #### Basic Functionality
 
-The first four tests are simple in nature, and test your ability to write basic endpoint functionality.
+The first three tests are simple in nature, and test your ability to write basic endpoint functionality.
 
 1. A GET request to '/' produces an HTTP 200 response with content 'Hello World!' somewhere
 2. A GET request to ''/robots.txt' produces a HTTP 200 response with Content-Type 'text/plain; charset=utf-8'"
 3. A GET request to '/mrw/class-is-done.gif' 301 or 302 redirects to the reaction gif of your choice
-4. A DELETE request to '/posts/delete' deletes all existing posts and responses w/ 200 status code
 
 #### Blog Post Functionality
 
