@@ -83,7 +83,7 @@ def test_response(comment, base_url, path, data=None, expected_code=None, expect
             return False
     if expected_headers:
         for header_key, header_value in expected_headers.iteritems():
-            if response.info().getheader(header_key) != header_value:
+            if response.info().getheader(header_key).lower() != header_value.lower():
                 return False
     if expected_content:
         content = response.read()
